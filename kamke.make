@@ -1,4 +1,5 @@
 core = 7.10
+api = 2
 
 projects[drupal][version] = "7.10"
 projects[drupal][type] = "core"
