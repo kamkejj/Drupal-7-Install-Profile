@@ -1,0 +1,16 @@
+name = Kamke Dev
+description = My favorite modules and settings
+core = 7.x
+
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = entity
+dependencies[] = wysiwyg
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
+dependencies[] = devel
+dependencies[] = features
+dependencies[] = diff
+
+files[] = kamke.profile
