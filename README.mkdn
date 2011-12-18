@@ -1,0 +1,2 @@
+## Drupal 7 Install Profile ##
+### Enable modules and typical settings ###
