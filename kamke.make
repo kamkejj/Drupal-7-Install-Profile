@@ -24,5 +24,4 @@ projects[diff][verison] = "2.0"
  
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
-libraries[profiler][destination] = "profiles/kamke/libraries/profiler"
 
