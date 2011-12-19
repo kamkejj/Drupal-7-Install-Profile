@@ -35,6 +35,6 @@ libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 
 ;FirePHP for Devel
-libaries[firephp][download][type] = "git"
+libraries[firephp][download][type] = "git"
 libraries[firephp][download][url] = "git://github.com/firephp/firephp-core.git"
 libraries[firephp][destination] = "modules/devel/FirePHPCore"
