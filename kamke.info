@@ -2,6 +2,17 @@ name = Kamke Dev
 description = My favorite modules and settings
 core = 7.x
 
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = toolbar
+
 dependencies[] = ctools
 dependencies[] = views
 dependencies[] = entity
