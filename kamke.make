@@ -15,6 +15,10 @@ projects[imce][version] = "1.5"
 projects[imce_wysiwyg][version] = "1.0"
 projects[entity][verison] = "1.0-rc1"
 projects[jquery_update][version] = "2.2"
+projects[transliteration][version] = "3.0"
+projects[imagecache_actions][version] = "0.0"
+projects[token[version] = "1.0-beta7"
+projects[pathauto][version] = "1.0"
  
 ;Develpment Modules
 projects[devel][version] = "1.2"
