@@ -12,9 +12,11 @@ dependencies[] = help
 dependencies[] = image
 dependencies[] = menu
 dependencies[] = toolbar
+dependencies[] = overlay
 
 dependencies[] = ctools
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = entity
 dependencies[] = wysiwyg
 dependencies[] = imce
@@ -27,5 +29,6 @@ dependencies[] = pathauto
 dependencies[] = transliteration
 dependencies[] = token
 dependencies[] = date
+dependencies[] = webform
 
 files[] = kamke.profile
