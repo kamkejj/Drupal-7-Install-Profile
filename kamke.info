@@ -15,5 +15,6 @@ dependencies[] = diff
 dependencies[] = pathauto
 dependencies[] = transliteration
 dependencies[] = token
+dependencies[] = date
 
 files[] = kamke.profile
