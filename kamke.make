@@ -37,4 +37,4 @@ libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profi
 ;FirePHP for Devel
 libaries[firephp][download][type] = "get"
 libraries[firephp][download][url] = "http://www.firephp.org/DownloadRelease/FirePHPLibrary-FirePHPCore-0.3.2"
-libraries[firephp][destination] = "sites/all/modules/devel/FirePHPCore"
+libraries[firephp][destination] = "modules/devel/FirePHPCore"
