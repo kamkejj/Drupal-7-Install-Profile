@@ -12,5 +12,8 @@ dependencies[] = jquery_update
 dependencies[] = devel
 dependencies[] = features
 dependencies[] = diff
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = token
 
 files[] = kamke.profile
