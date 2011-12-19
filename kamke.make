@@ -7,7 +7,7 @@ projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "http://git.drupal.org/project/drupal.git"
 projects[drupal][download][branch] = "7.10"
  
-;Modules -must haves
+;Must haves
 projects[views][version] = "3.0"
 projects[ctools][version] = "1.0-rc1"
 projects[wysiwyg][version] = "2.1"
@@ -17,10 +17,15 @@ projects[entity][verison] = "1.0-rc1"
 projects[jquery_update][version] = "2.2"
 projects[transliteration][version] = "3.0"
 projects[imagecache_actions][version] = "0.0"
+projects[imagefield_crop][version] = "1.0"
 projects[token[version] = "1.0-beta7"
 projects[pathauto][version] = "1.0"
+projects[date][version] = "2.0-alpha5"
+projects[google_analytics][version] = "1.2"
+projects[webform][version] = "3.15"
+projects[mimemail][verison] = "1.0-alpha1"
  
-;Develpment Modules
+;Develpment
 projects[devel][version] = "1.2"
 projects[performance][version] = "1.3"
 projects[features][version] = "1.0-beta4"
@@ -29,3 +34,7 @@ projects[diff][verison] = "2.0"
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 
+;FirePHP for Devel
+libaries[firephp][download][type] = "get"
+libraries[firephp][download][url] = "http://www.firephp.org/DownloadRelease/FirePHPLibrary-FirePHPCore-0.3.2"
+libraries[firephp][destination] = "sites/all/modules/devel/FirePHPCore"
