@@ -66,6 +66,10 @@ function kamke_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
+  //set default theme
+  variable_set('theme_default', 'bartik');
+  variable_set('admin_theme', 'seven');
+  
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';
@@ -187,6 +191,36 @@ function kamke_install() {
       'status' => 1,
       'weight' => -10,
       'region' => 'dashboard_sidebar',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'menu',
+      'delta' => 'devel',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'devel',
+      'delta' => 'switch_user',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 12,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'devel',
+      'delta' => 'execute_php',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 14,
+      'region' => 'sidebar_first',
       'pages' => '',
       'cache' => -1,
     ),
