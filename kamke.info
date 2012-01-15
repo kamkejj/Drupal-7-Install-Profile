@@ -28,11 +28,9 @@ dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = system
 dependencies[] = taxonomy
-dependencies[] = test
 dependencies[] = update
 dependencies[] = user
-dependencies[] = bartik
-dependencies[] = seven
+
 
 dependencies[] = ctools
 dependencies[] = views
