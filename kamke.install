@@ -439,5 +439,5 @@ function kamke_form_install_configure_form_alter(&$form, $form_state) {
   $form['site_information']['site_name']['#default_value'] = "Drupal 7 Build";
   $form['site_information']['site_mail']['#default_value'] = "name@email.mail";
   
-  $form['admin_account']['account']['#name'] = "admin";
+  $form['admin_account']['account']['name']['#default_value'] = "admin";
 }
