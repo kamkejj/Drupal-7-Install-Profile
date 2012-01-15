@@ -447,6 +447,6 @@ function kamke_form_install_configure_form_alter(&$form, $form_state) {
 }
 
 function kamke_profile_details(){
-  $details['language'] = "US";
+  $details['language'] = "en";
   return $details;
 }
