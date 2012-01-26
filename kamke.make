@@ -36,6 +36,7 @@ projects[performance][version] = "1.3"
 projects[features][version] = "1.0-beta6"
 projects[diff][verison] = "2.0"
 projects[strongarm][version] = "2.0-beta5"
+projects[drupalforfirebug][version] = "1.2"
  
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
