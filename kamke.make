@@ -1,11 +1,11 @@
-core = 7.10
+core = 7.x
 api = 2
 
-projects[drupal][version] = "7.10"
+projects[drupal][version] = "7.x"
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "http://git.drupal.org/project/drupal.git"
-projects[drupal][download][branch] = "7.10"
+projects[drupal][download][branch] = "7.x"
  
 ;Must haves
 projects[views][version] = "3.1"

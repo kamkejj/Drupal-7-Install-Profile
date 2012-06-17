@@ -1,2 +1,6 @@
 ## Drupal 7 Install Profile ##
 ### Enable modules and typical settings ###
+
+_Reference:_
+[http://drupal.org/node/1022020](http://drupal.org/node/1022020)
+ 
